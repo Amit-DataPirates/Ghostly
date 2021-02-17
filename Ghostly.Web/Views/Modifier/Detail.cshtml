@@ -1,0 +1,114 @@
+﻿@model Ghostly.Models.ModifierModel
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+
+<div>
+    <h4>ModifierModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifierId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifierId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecipeId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecipeId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IngredientId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IngredientId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnitType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnitType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrderType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.date_creation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.date_creation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.created_by)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.created_by)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.modified_by)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.modified_by)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.date_modified)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.date_modified)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+    @Html.ActionLink("Back to List", "GetAllModifiers")
+</p>

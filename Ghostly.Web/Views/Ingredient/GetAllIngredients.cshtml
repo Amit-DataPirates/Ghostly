@@ -1,0 +1,217 @@
+﻿@model PagedList.IPagedList<Ghostly.Models.IngredientModel>
+
+@{
+    ViewBag.Title = "GetAllIngredients";
+}
+
+<h2>List Of Ingredients</h2>
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+@using PagedList.Mvc;
+@using PagedList;
+
+<div class="row">
+    <div class="col-md-9">
+        <h2>GetAllIngredients</h2>
+
+
+        @Html.ActionLink("Create New", "GetAllIngredients", new { @class = " btn btn-danger" })
+
+    </div>
+    <div class="col-md-3">
+        @using (Html.BeginForm("GetAllIngredients", "Ingredient", FormMethod.Get))
+        {
+            <p>
+                Search Name: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </p>
+        }
+    </div>
+
+</div>
+
+@*<p>
+        @Html.ActionLink("Create New", "AddIngredient")
+    </p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().IngredientId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Category)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().OperatorId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().OperatorLocationId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().CommercialIngredientId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().ProductionTimeHours)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().ProductionTimeDays)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().ProductionTimeMonths)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().PerishabilityIndexHours)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().PerishabilityIndexDays)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().PerishabilityIndexMonths)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().StorageCapacityInLiquid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().StorageCapacityInVolume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().StorageUsedCapacityLiquid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().StorageUsedCapacityVolume)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().CurrentPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().LastCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().date_creation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().created_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().modified_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().date_modified)
+        </th>
+        <th style="width:300px" class="text-center">
+            Action
+        </th>
+
+    </tr>
+    @if (Model.Count() == 0)
+    {
+        <tr>
+            <td colspan="3" style="color:red">
+                No Match Any Document
+            </td>
+        </tr>
+    }
+    else
+    {
+
+        foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.IngredientId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Category)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Type)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.OperatorId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.OperatorLocationId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CommercialIngredientId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ProductionTimeHours)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ProductionTimeDays)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ProductionTimeMonths)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PerishabilityIndexHours)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PerishabilityIndexDays)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PerishabilityIndexMonths)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.StorageCapacityInLiquid)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.StorageCapacityInVolume)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.StorageUsedCapacityLiquid)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.StorageUsedCapacityVolume)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CurrentPrice)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.LastCost)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.date_creation)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.created_by)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.modified_by)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.date_modified)
+    </td>
+    <td class="text-center">
+        @Html.ActionLink("Edit", "Update", new { id = item.IngredientId }, new { @class = " btn btn-primary" })|
+
+
+        @Html.ActionLink("Details", "Detail", new { id = item.IngredientId }, new { @class = " btn btn-primary" })|
+
+
+        @Html.ActionLink("Delete", "Delete", new { id = item.IngredientId }, new { @class = " btn btn-danger" })
+
+
+    </td>
+  </tr>
+        }
+    }
+
+    </table>
+<div class="text-center">
+
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    @Html.PagedListPager(Model, Page_No => Url.Action("GetAllIngredients",
+        new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))
+
+</div>
