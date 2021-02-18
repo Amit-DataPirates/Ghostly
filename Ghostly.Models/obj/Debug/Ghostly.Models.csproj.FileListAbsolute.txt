@@ -8,9 +8,3 @@ C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\bin\Debug\Ghostly.Models.p
 C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.csproj.CoreCompileInputs.cache
 C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.dll
 C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.pdb
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Models\bin\Debug\Ghostly.Models.dll
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Models\bin\Debug\Ghostly.Models.pdb
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.csprojAssemblyReference.cache
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.dll
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.pdb

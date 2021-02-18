@@ -104,7 +104,3 @@ F:\Ghostly\Ghostly\Ghostly.Web\bin\AutoMapper.dll
 F:\Ghostly\Ghostly\Ghostly.Web\bin\AutoMapper.xml
 C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\AutoMapper.dll
 C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\AutoMapper.xml
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csprojAssemblyReference.cache
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.dll
-C:\Users\ADMIN\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.pdb
