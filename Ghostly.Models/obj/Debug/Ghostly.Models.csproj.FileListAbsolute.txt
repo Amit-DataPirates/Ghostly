@@ -1,0 +1,10 @@
+C:\Users\Amit Raj\Downloads\Ghostly\Ghostly.Models\bin\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\Downloads\Ghostly\Ghostly.Models\bin\Debug\Ghostly.Models.pdb
+C:\Users\Amit Raj\Downloads\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\Downloads\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\Downloads\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.pdb
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\bin\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\bin\Debug\Ghostly.Models.pdb
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Models\obj\Debug\Ghostly.Models.pdb

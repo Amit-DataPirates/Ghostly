@@ -1,0 +1,106 @@
+C:\Users\Amit Raj\Downloads\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csprojAssemblyReference.cache
+C:\Users\Amit Raj\Downloads\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.Web.dll.config
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.Web.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.Web.pdb
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\csc.exe
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\csc.exe.config
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\csc.rsp
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\csi.exe
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\csi.exe.config
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\csi.rsp
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\System.Buffers.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\System.Memory.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\vbc.exe
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\vbc.exe.config
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\vbc.rsp
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.Business.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.Models.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\PagedList.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\PagedList.Mvc.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.DAL.SQL.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.Business.pdb
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.Business.dll.config
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.Models.pdb
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\PagedList.xml
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\PagedList.Mvc.xml
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.DAL.SQL.pdb
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\Ghostly.DAL.SQL.dll.config
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csprojAssemblyReference.cache
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csproj.CopyComplete
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.pdb
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.Web.dll.config
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.Web.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.Web.pdb
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\csc.exe
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\csc.exe.config
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\csc.rsp
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\csi.exe
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\csi.exe.config
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\csi.rsp
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\System.Buffers.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\System.Collections.Immutable.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\System.Memory.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\System.Numerics.Vectors.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\System.Reflection.Metadata.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\vbc.exe
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\vbc.exe.config
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\vbc.rsp
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\VBCSCompiler.exe
+F:\Ghostly\Ghostly\Ghostly.Web\bin\roslyn\VBCSCompiler.exe.config
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.Business.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.Models.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\PagedList.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\PagedList.Mvc.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.DAL.SQL.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.Business.pdb
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.Business.dll.config
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.Models.pdb
+F:\Ghostly\Ghostly\Ghostly.Web\bin\PagedList.xml
+F:\Ghostly\Ghostly\Ghostly.Web\bin\PagedList.Mvc.xml
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.DAL.SQL.pdb
+F:\Ghostly\Ghostly\Ghostly.Web\bin\Ghostly.DAL.SQL.dll.config
+F:\Ghostly\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csprojAssemblyReference.cache
+F:\Ghostly\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csproj.CoreCompileInputs.cache
+F:\Ghostly\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.csproj.CopyComplete
+F:\Ghostly\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.dll
+F:\Ghostly\Ghostly\Ghostly.Web\obj\Debug\Ghostly.Web.pdb
+F:\Ghostly\Ghostly\Ghostly.Web\bin\AutoMapper.dll
+F:\Ghostly\Ghostly\Ghostly.Web\bin\AutoMapper.xml
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\AutoMapper.dll
+C:\Users\Amit Raj\source\repos\Ghostly\Ghostly.Web\bin\AutoMapper.xml
