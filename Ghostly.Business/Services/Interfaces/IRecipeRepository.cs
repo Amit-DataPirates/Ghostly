@@ -16,5 +16,7 @@ namespace Ghostly.Business.Services.Interfaces
         void Update(RecipeModel recipeModel);
         void Delete(Guid ? RecipeId);
         
+
+        //vikas this side
     }
 }
