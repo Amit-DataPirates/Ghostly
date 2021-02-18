@@ -1,4 +1,5 @@
-﻿using Ghostly.Business.Services.Interfaces;
+﻿using AutoMapper;
+using Ghostly.Business.Services.Interfaces;
 using Ghostly.DAL.SQL;
 using Ghostly.Models;
 using System;
@@ -21,34 +22,53 @@ namespace Ghostly.Business
 
         IEnumerable<IngredientModel> IIngredientRepository.GetAllIngredients()
         {
-            IEnumerable<IngredientModel> listOfIngredient = (from objIngredient in db.Ingredients
-                                                     select new IngredientModel()
-                                                     {
-                                                         IngredientId = objIngredient.IngredientId,
-                                                         Name = objIngredient.Name,
-                                                         Category = objIngredient.Category,
-                                                         //Type = objIngredient.Type,
-                                                         OperatorId = objIngredient.OperatorId,
-                                                         OperatorLocationId = objIngredient.OperatorLocationId,
-                                                         CommercialIngredientId = objIngredient.CommercialIngredientId,
-                                                         ProductionTimeHours = objIngredient.ProductionTimeHours,
-                                                         ProductionTimeDays = objIngredient.ProductionTimeDays,
-                                                         ProductionTimeMonths = objIngredient.ProductionTimeMonths,
-                                                         PerishabilityIndexHours = objIngredient.PerishabilityIndexHours,
-                                                         PerishabilityIndexDays = objIngredient.PerishabilityIndexDays,
-                                                         PerishabilityIndexMonths = objIngredient.PerishabilityIndexMonths,
-                                                         StorageCapacityInLiquid = objIngredient.StorageCapacityInLiquid,
-                                                         StorageCapacityInVolume = objIngredient.StorageCapacityInVolume,
-                                                         StorageUsedCapacityLiquid = objIngredient.StorageUsedCapacityLiquid,
-                                                         StorageUsedCapacityVolume = objIngredient.StorageUsedCapacityVolume,
-                                                         CurrentPrice = objIngredient.CurrentPrice,
-                                                         LastCost = objIngredient.LastCost,
-                                                         date_creation = objIngredient.date_creation,
-                                                         created_by = objIngredient.created_by,
-                                                         modified_by = objIngredient.modified_by,
-                                                         date_modified = objIngredient.date_modified
-                                                     }).ToList();
-            return listOfIngredient;
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<Ingredient, IngredientModel>();
+            });
+            var IngredientList = from user in db.Ingredients
+                                 select user;
+            var ingredient = new List<IngredientModel>();
+            if (IngredientList.Any())
+            {
+                foreach (var Ingredient in IngredientList)
+                {
+                    IMapper mapper = config.CreateMapper();
+                    var source = new Ingredient();
+                    var dest = mapper.Map<Ingredient, IngredientModel>(source);
+                    IngredientModel ModelIngredient = mapper.Map<Ingredient, IngredientModel>(Ingredient);
+                    ingredient.Add(ModelIngredient);
+                }
+            }
+            return ingredient;
+            //IEnumerable<IngredientModel> listOfIngredient = (from objIngredient in db.Ingredients
+            //                                         select new IngredientModel()
+            //                                         {
+            //                                             IngredientId = objIngredient.IngredientId,
+            //                                             Name = objIngredient.Name,
+            //                                             Category = objIngredient.Category,
+            //                                             //Type = objIngredient.Type,
+            //                                             OperatorId = objIngredient.OperatorId,
+            //                                             OperatorLocationId = objIngredient.OperatorLocationId,
+            //                                             CommercialIngredientId = objIngredient.CommercialIngredientId,
+            //                                             ProductionTimeHours = objIngredient.ProductionTimeHours,
+            //                                             ProductionTimeDays = objIngredient.ProductionTimeDays,
+            //                                             ProductionTimeMonths = objIngredient.ProductionTimeMonths,
+            //                                             PerishabilityIndexHours = objIngredient.PerishabilityIndexHours,
+            //                                             PerishabilityIndexDays = objIngredient.PerishabilityIndexDays,
+            //                                             PerishabilityIndexMonths = objIngredient.PerishabilityIndexMonths,
+            //                                             StorageCapacityInLiquid = objIngredient.StorageCapacityInLiquid,
+            //                                             StorageCapacityInVolume = objIngredient.StorageCapacityInVolume,
+            //                                             StorageUsedCapacityLiquid = objIngredient.StorageUsedCapacityLiquid,
+            //                                             StorageUsedCapacityVolume = objIngredient.StorageUsedCapacityVolume,
+            //                                             CurrentPrice = objIngredient.CurrentPrice,
+            //                                             LastCost = objIngredient.LastCost,
+            //                                             date_creation = objIngredient.date_creation,
+            //                                             created_by = objIngredient.created_by,
+            //                                             modified_by = objIngredient.modified_by,
+            //                                             date_modified = objIngredient.date_modified
+            //                                         }).ToList();
+            //return listOfIngredient;
         }
 
         public void AddIngredient(IngredientModel ingredientModel)
