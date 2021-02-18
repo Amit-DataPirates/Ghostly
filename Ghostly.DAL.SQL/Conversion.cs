@@ -28,7 +28,7 @@ namespace Ghostly.DAL.SQL
         public Nullable<int> Unit { get; set; }
         public string UnitType { get; set; }
         public Nullable<decimal> NetWeight { get; set; }
-        public System.DateTime date_creation { get; set; }
+        public Nullable<System.DateTime> date_creation { get; set; }
         public Nullable<System.Guid> created_by { get; set; }
         public Nullable<System.Guid> modified_by { get; set; }
         public Nullable<System.DateTime> date_modified { get; set; }

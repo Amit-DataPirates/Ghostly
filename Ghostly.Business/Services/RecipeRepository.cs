@@ -1,4 +1,5 @@
-﻿using Ghostly.Business.Services.Interfaces;
+﻿using AutoMapper;
+using Ghostly.Business.Services.Interfaces;
 using Ghostly.DAL.SQL;
 using Ghostly.Models;
 using System;
@@ -15,32 +16,53 @@ namespace Ghostly.Business
 {
     public class RecipeRepository : IRecipeRepository
     {
-        private GhostlyXEntities1 db;
+        private GhostlyXEntities db;
 
         public RecipeRepository()
         {
-            db = new GhostlyXEntities1();
+            db = new GhostlyXEntities();
         }
         IEnumerable<RecipeModel> IRecipeRepository.GetAll()
         {
-            IEnumerable<RecipeModel> listOfRecipe = (from objRecipe in db.Recipes
-                                                     select new RecipeModel()
-                                                     {
-                                                         RecipeId = objRecipe.RecipeId,
-                                                         ProductName = objRecipe.ProductName,
-                                                         Variation = objRecipe.Variation,
-                                                         CurrentPrice = objRecipe.CurrentPrice,
-                                                         LastCost = objRecipe.LastCost,
-                                                         Description = objRecipe.Description,
-                                                         StandardRecipeId = objRecipe.StandardRecipeId,
-                                                         OperatorId = objRecipe.OperatorId,
-                                                         OperatorLocationId = objRecipe.OperatorLocationId,
-                                                         date_creation = objRecipe.date_creation,
-                                                         created_by = objRecipe.created_by,
-                                                         modified_by = objRecipe.modified_by,
-                                                         date_modified = objRecipe.date_modified
-                                                     }).ToList();
-            return listOfRecipe;
+            //IEnumerable<RecipeModel> listOfRecipe = (from objRecipe in db.Recipes
+            //                                         select new RecipeModel()
+            //                                         {
+            //                                             RecipeId = objRecipe.RecipeId,
+            //                                             ProductName = objRecipe.ProductName,
+            //                                             Variation = objRecipe.Variation,
+            //                                             CurrentPrice = objRecipe.CurrentPrice,
+            //                                             LastCost = objRecipe.LastCost,
+            //                                             Description = objRecipe.Description,
+            //                                             StandardRecipeId = objRecipe.StandardRecipeId,
+            //                                             OperatorId = objRecipe.OperatorId,
+            //                                             OperatorLocationId = objRecipe.OperatorLocationId,
+            //                                             date_creation = objRecipe.date_creation,
+            //                                             created_by = objRecipe.created_by,
+            //                                             modified_by = objRecipe.modified_by,
+            //                                             date_modified = objRecipe.date_modified
+            //                                         }).ToList();
+            //return listOfRecipe;
+
+             var Recipeconfig = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<Recipe, RecipeModel>();
+            });
+
+            var listOfRecipe = from rec in db.Recipes
+                               select rec;
+            var recipe = new List<RecipeModel>();
+            if (listOfRecipe.Any())
+            {
+                foreach (var rec in listOfRecipe)
+                {
+                    IMapper mapper = Recipeconfig.CreateMapper();
+                    var source = new Recipe();
+                    var dest = mapper.Map<Recipe, RecipeModel>(source);
+                    RecipeModel recipeModel = mapper.Map<Recipe, RecipeModel>(rec);
+                    recipe.Add(recipeModel);
+                }
+            }
+            return recipe;
         }
         public void AddRecipe(RecipeModel recipeModel)
         {

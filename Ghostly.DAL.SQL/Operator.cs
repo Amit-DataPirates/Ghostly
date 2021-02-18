@@ -17,7 +17,6 @@ namespace Ghostly.DAL.SQL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Operator()
         {
-            this.aspnet_Users = new HashSet<aspnet_Users>();
             this.Ingredients = new HashSet<Ingredient>();
             this.StockDailySalesIngredients = new HashSet<StockDailySalesIngredient>();
             this.Operators_Locations = new HashSet<Operators_Locations>();
@@ -54,8 +53,6 @@ namespace Ghostly.DAL.SQL
         public Nullable<System.Guid> modified_by { get; set; }
         public Nullable<System.DateTime> date_modified { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<aspnet_Users> aspnet_Users { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Ingredient> Ingredients { get; set; }
         public virtual norm_OperatorCategories norm_OperatorCategories { get; set; }

@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Ghostly.DAL.SQL</RootNamespace>
     <AssemblyName>Ghostly.DAL.SQL</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -58,52 +58,76 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aspnet_Applications.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_Membership.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_Membership_GetPasswordWithFormat_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_Membership_GetPassword_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_Membership_GetUserByName_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_Membership_GetUserByUserId_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_Roles.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_SchemaVersions.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_Sessions.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_Users.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="aspnet_UsersInRoles_RemoveUsersFromRoles_Result.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="CommercialIngredient.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Conversion.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Deliverability.cs">
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="DeliveryChannel.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fdc_branded_food.cs">
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="fdc_food.cs">
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GhostlyXEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GhostlyXEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GhostlyXEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GhostlyXEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GhostlyXEntities.edmx</DependentUpon>
     </Compile>
     <Compile Include="Ingredient.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="IngredientsForStandardRecipe.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -121,95 +145,95 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="Modifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_Brands.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_Countries.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_CountriesInRegions.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_IngredientCategories.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_IngredientType.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_OperatorCategories.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_OperatorSubCategories.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_OrderTypes.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_Regions.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_SupplierCategories.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_SupplierSubCategories.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_UnitTypes.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="norm_VariationTypes.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Operator.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Operators_Locations.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="POI_POR_reconciliation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="PriceCostVariation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="ProcessIngredient.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="prof_OperatorGhostlyClassification.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="prof_SupplierGhostlyClassification.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PurchaseOrderInvoice.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="PurchaseOrderRequest.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="PurchaseOrderSuggestion.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="PurchaseOrderSuggestionAlternative.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Recipe.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="RecipesIngredient.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Sale.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="SaleRecipeModifier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="SiteContent.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="SPAvailableStock_Result.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -218,40 +242,40 @@
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="StandardRecipe.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="StartStock.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="StockDailySalesIngredient.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="StockUnespectedVariation.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Supplier.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="Suppliers_Location.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="UniversalIngredient.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="vw_aspnet_Applications.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="vw_aspnet_MembershipUsers.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="vw_aspnet_Roles.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="vw_aspnet_Users.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="vw_aspnet_UsersInRoles.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
+      <DependentUpon>GhostlyXEntities.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -276,6 +300,13 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <EntityDeploy Include="GhostlyXEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>GhostlyXEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="GhostlyXEntities.edmx.diagram">
+      <DependentUpon>GhostlyXEntities.edmx</DependentUpon>
+    </None>
     <None Include="Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </None>
@@ -285,6 +316,16 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GhostlyXEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GhostlyXEntities.edmx</DependentUpon>
+      <LastGenOutput>GhostlyXEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="GhostlyXEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GhostlyXEntities.edmx</DependentUpon>
+      <LastGenOutput>GhostlyXEntities.cs</LastGenOutput>
+    </Content>
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>

@@ -21,8 +21,9 @@ namespace Ghostly.DAL.SQL
             this.RecipesIngredients = new HashSet<RecipesIngredient>();
         }
     
-        public string UnitTypeId { get; set; }
+        public System.Guid UnitTypeId { get; set; }
         public string UnitTypedsec { get; set; }
+        public string fdc_code { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ProcessIngredient> ProcessIngredients { get; set; }

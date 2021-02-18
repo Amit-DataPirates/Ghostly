@@ -19,7 +19,6 @@ namespace Ghostly.DAL.SQL
         {
             this.aspnet_Membership = new HashSet<aspnet_Membership>();
             this.aspnet_Roles = new HashSet<aspnet_Roles>();
-            this.aspnet_Users = new HashSet<aspnet_Users>();
         }
     
         public string ApplicationName { get; set; }
@@ -31,7 +30,5 @@ namespace Ghostly.DAL.SQL
         public virtual ICollection<aspnet_Membership> aspnet_Membership { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<aspnet_Roles> aspnet_Roles { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<aspnet_Users> aspnet_Users { get; set; }
     }
 }

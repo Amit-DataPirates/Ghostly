@@ -13,10 +13,10 @@ namespace Ghostly.Business
 {
     public class ModifierRepository : IModifierRepository
     {
-        private GhostlyXEntities1 db;
+        private GhostlyXEntities db;
         public ModifierRepository()
         {
-            db = new GhostlyXEntities1();
+            db = new GhostlyXEntities();
         }
         IEnumerable<ModifierModel> IModifierRepository.GetAllModifiers()
         {

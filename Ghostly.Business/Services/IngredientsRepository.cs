@@ -12,11 +12,11 @@ namespace Ghostly.Business
 {
     public class IngredientsRepository : IIngredientRepository
     {
-        private GhostlyXEntities1 db;
+        private GhostlyXEntities db;
 
         public IngredientsRepository()
         {
-            db = new GhostlyXEntities1();
+            db = new GhostlyXEntities();
         }
 
         IEnumerable<IngredientModel> IIngredientRepository.GetAllIngredients()

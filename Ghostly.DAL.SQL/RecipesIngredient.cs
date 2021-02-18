@@ -24,7 +24,7 @@ namespace Ghostly.DAL.SQL
         public Nullable<System.Guid> RecipeId { get; set; }
         public Nullable<System.Guid> IngredientId { get; set; }
         public Nullable<decimal> Quantity { get; set; }
-        public string UnitType { get; set; }
+        public Nullable<System.Guid> UnitType { get; set; }
         public Nullable<decimal> CurrentPrice { get; set; }
         public Nullable<decimal> LastCost { get; set; }
         public System.DateTime date_creation { get; set; }

@@ -27,7 +27,7 @@ namespace Ghostly.DAL.SQL
         public System.Guid IngredientId { get; set; }
         public string Name { get; set; }
         public string Category { get; set; }
-        public string Type { get; set; }
+        public Nullable<System.Guid> Type { get; set; }
         public Nullable<System.Guid> OperatorId { get; set; }
         public Nullable<System.Guid> OperatorLocationId { get; set; }
         public Nullable<System.Guid> CommercialIngredientId { get; set; }
@@ -57,6 +57,7 @@ namespace Ghostly.DAL.SQL
         public virtual ICollection<StockDailySalesIngredient> StockDailySalesIngredients { get; set; }
         public virtual Operators_Locations Operators_Locations { get; set; }
         public virtual Operator Operator { get; set; }
+        public virtual norm_IngredientType norm_IngredientType { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<PriceCostVariation> PriceCostVariations { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

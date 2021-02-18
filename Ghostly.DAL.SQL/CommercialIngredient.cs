@@ -17,6 +17,7 @@ namespace Ghostly.DAL.SQL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public CommercialIngredient()
         {
+            this.Deliverabilities = new HashSet<Deliverability>();
             this.Ingredients = new HashSet<Ingredient>();
             this.PurchaseOrderInvoices = new HashSet<PurchaseOrderInvoice>();
             this.PurchaseOrderRequests = new HashSet<PurchaseOrderRequest>();
@@ -44,6 +45,8 @@ namespace Ghostly.DAL.SQL
     
         public virtual norm_Brands norm_Brands { get; set; }
         public virtual UniversalIngredient UniversalIngredient { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Deliverability> Deliverabilities { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Ingredient> Ingredients { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

@@ -17,7 +17,7 @@ namespace Ghostly.DAL.SQL
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Supplier()
         {
-            this.aspnet_Users = new HashSet<aspnet_Users>();
+            this.Deliverabilities = new HashSet<Deliverability>();
             this.PurchaseOrderInvoices = new HashSet<PurchaseOrderInvoice>();
             this.PurchaseOrderRequests = new HashSet<PurchaseOrderRequest>();
             this.PurchaseOrderSuggestions = new HashSet<PurchaseOrderSuggestion>();
@@ -46,7 +46,7 @@ namespace Ghostly.DAL.SQL
         public Nullable<System.DateTime> date_modified { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<aspnet_Users> aspnet_Users { get; set; }
+        public virtual ICollection<Deliverability> Deliverabilities { get; set; }
         public virtual norm_Regions norm_Regions { get; set; }
         public virtual norm_SupplierCategories norm_SupplierCategories { get; set; }
         public virtual norm_SupplierSubCategories norm_SupplierSubCategories { get; set; }

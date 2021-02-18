@@ -32,12 +32,7 @@ namespace Ghostly.DAL.SQL
         public Nullable<System.Guid> SupplierId { get; set; }
         public Nullable<System.Guid> SupplierLocationId { get; set; }
     
-        public virtual aspnet_Applications aspnet_Applications { get; set; }
         public virtual aspnet_Membership aspnet_Membership { get; set; }
-        public virtual Operator Operator { get; set; }
-        public virtual Operators_Locations Operators_Locations { get; set; }
-        public virtual Supplier Supplier { get; set; }
-        public virtual Suppliers_Location Suppliers_Location { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<aspnet_Roles> aspnet_Roles { get; set; }
     }

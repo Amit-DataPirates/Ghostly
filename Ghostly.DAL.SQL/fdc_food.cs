@@ -12,18 +12,21 @@ namespace Ghostly.DAL.SQL
     using System;
     using System.Collections.Generic;
     
-    public partial class norm_IngredientType
+    public partial class fdc_food
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public norm_IngredientType()
+        public fdc_food()
         {
-            this.Ingredients = new HashSet<Ingredient>();
+            this.fdc_branded_food = new HashSet<fdc_branded_food>();
         }
     
-        public System.Guid IngredientTypeID { get; set; }
-        public string IngredientTypedsec { get; set; }
+        public double fdc_id { get; set; }
+        public string data_type { get; set; }
+        public string description { get; set; }
+        public string food_category_id { get; set; }
+        public Nullable<System.DateTime> publication_date { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Ingredient> Ingredients { get; set; }
+        public virtual ICollection<fdc_branded_food> fdc_branded_food { get; set; }
     }
 }

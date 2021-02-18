@@ -27,7 +27,7 @@ namespace Ghostly.DAL.SQL
         public Nullable<int> Variation { get; set; }
         public string VariationType { get; set; }
         public Nullable<decimal> Quantity { get; set; }
-        public string UnitType { get; set; }
+        public Nullable<System.Guid> UnitType { get; set; }
         public Nullable<System.Guid> CommercialIngredientId { get; set; }
         public Nullable<decimal> PerishabilityIndexHours { get; set; }
         public Nullable<decimal> PerishabilityIndexDays { get; set; }
