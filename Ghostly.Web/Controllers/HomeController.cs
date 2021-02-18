@@ -16,8 +16,7 @@ namespace Ghostly.Web.Controllers
 
     {
         private IRecipeRepository recipeRepository;
-        //RecipeModel recipe = new RecipeModel();
-        //DbRecipe recipe1 = new DbRecipe();
+        
         public HomeController(IRecipeRepository _recipeRepository) //Constructor Dependency Injection
         {
             recipeRepository = _recipeRepository;
