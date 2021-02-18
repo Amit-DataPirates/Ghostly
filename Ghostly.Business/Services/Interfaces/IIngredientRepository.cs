@@ -14,5 +14,8 @@ namespace Ghostly.Business.Services.Interfaces
         IngredientModel Detail(Guid IngredientId);
         void Update(IngredientModel ingredientModel);
         void Delete(Guid? IngredientId);
+        
+
+        //hye
     }
 }
